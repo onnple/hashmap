@@ -22,6 +22,7 @@ HashMap *hashmap_init(int length){
     hashmap->array = (HNode*)malloc(sizeof(HNode) * length);
     if(!hashmap->array){
         perror("alloc map node error.");
+        free(hashmap);
         return NULL;
     }
     for (int i = 0; i < hashmap->length; ++i)
