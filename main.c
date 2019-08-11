@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
-#include "hashfunction.h"
+#include "hashmap.h"
 
     for (int i = 0; i < 10; ++i) {
         printf("%d ", hash_direct_addr(i));
