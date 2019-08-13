@@ -1,5 +1,5 @@
 # 散列表HashMap
-使用分离链接法实现散列表，使用散列表实现HashMap，原文地址：  
+使用分离链接法实现散列表，使用散列表实现HashMap，原文地址：http://www.srcmini.com/1507.html  
 ## HashMap函数操作：
 ### 1、初始化HashMap
 extern HashMap *hashmap_init(int length);
